@@ -1,0 +1,2 @@
+F = "Ferrari"
+print(F)
