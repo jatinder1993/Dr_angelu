@@ -10,3 +10,4 @@ class Load:
         print(f'Invoice {self.invoice}, Price = {self.price}')
 
 Load()
+
