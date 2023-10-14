@@ -6,8 +6,14 @@ class Load:
         self.end_odo = int(input("Enter the end of trip odometer:  "))
         self.broker = input("Enter the name of broker:  ")
 
-    def get_info(self):
-        print(f'Invoice {self.invoice}, Price = {self.price}')
+    def store_entry(self, entry_data):
+        entry_data.append([self.invoice, self.price, self.start_odo, self.end_odo, self.broker])
 
-Load
 
+Load_instance = Load()
+
+load_entry_data = []
+
+Load_instance.store_entry(load_entry_data)
+
+print(load_entry_data)
