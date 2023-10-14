@@ -9,5 +9,5 @@ class Load:
     def get_info(self):
         print(f'Invoice {self.invoice}, Price = {self.price}')
 
-Load()
+Load
 
