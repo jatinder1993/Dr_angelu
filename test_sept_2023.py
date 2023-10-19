@@ -1,4 +1,5 @@
-
+with open("practice.txt", "r") as file:
+    for lines in
 
 class Load:
     def __init__(self, invoice, price, start_odo, end_odo, broker):
